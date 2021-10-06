@@ -1,0 +1,53 @@
+/* :root{
+    --dark:#00E0D4 ; 
+    --light:#FFE4DB;
+    --writing:#EAEFF2 ; 
+    --bold:#FF4500;
+ }
+ * {
+background-color: var(--light);
+font-family: sans-serif;
+box-sizing: border-box;
+margin: 0 auto;
+} */
+#box1{
+   height: 200px;
+   width: 1000px;
+ background-image: "https://previews.123rf.com/images/gloriaolsy/gloriaolsy1905/gloriaolsy190519352/123258779-template-background-with-curved-line-triangles-style-for-interior-wallpaper-smart-design-fashion-pri.jpg"
+}
+#box2{
+    height: 150px;
+    width: 900px;
+     background-color: blue;
+     color: thistle;
+ }
+/* header{
+    display: flex;
+    position:relative;
+}
+nav{
+position: relative;
+ display:flex;
+ justify-content: flex-end;
+ letter-spacing: 0.09em;
+}
+ .About{
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content: left;
+    float: left ;
+    position: static;
+ }
+ .About p {
+     color:var(--bold);
+     position: relative;
+     
+ }
+ aside{
+    display: flex;
+   position: static;
+   display: inline-block;
+   float: right;
+   background-color: var(--dark);
+ */
+
