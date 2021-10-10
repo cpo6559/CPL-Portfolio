@@ -1,37 +1,117 @@
-/* :root{
-    --dark:#00E0D4 ; 
-    --light:#FFE4DB;
-    --writing:#EAEFF2 ; 
-    --bold:#FF4500;
- }
  * {
-background-color: var(--light);
 font-family: sans-serif;
 box-sizing: border-box;
-margin: 0 auto;
-} */
-#box1{
-   height: 200px;
-   width: 1000px;
- background-image: "https://previews.123rf.com/images/gloriaolsy/gloriaolsy1905/gloriaolsy190519352/123258779-template-background-with-curved-line-triangles-style-for-interior-wallpaper-smart-design-fashion-pri.jpg"
-}
-#box2{
-    height: 150px;
-    width: 900px;
-     background-color: blue;
-     color: thistle;
+;
+/* margin: 0 auto; */
  }
-/* header{
-    display: flex;
-    position:relative;
+ .flex-container{
+     display: flex;
+     /* flex-direction: row;
+     flex-wrap: wrap; */
+border: dimgray solid;
+   color: lightgrey;
+   font-family: serif;
+   background-color: cornflowerblue; 
+   justify-content: space-between;
+
+
 }
 nav{
+    display: flex;
+    margin-right: 20px;
+   background-color: cornflowerblue; 
+    
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    width: 1300px;
+    background-color: lightcyan;
+}
+.side-column{
+    display: flex;    
+    flex-direction: column;
+    background-color:lightgrey;
+    float: left;
+    height: 600px;
+    width: 200px;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 200%;
+       
+    }
+#box1{
+    display: flex;
+    float: right;
+    height: 200px;
+    width: 1319px;
+         
+
+}
+#box2{
+    display: flex;
+    float: right;
+    border: grey solid;
+    height: 200px;
+    width: 1319px;
+    align-items: center;
+
+}
+#box3{
+    display: flex;
+    height: 200px;
+    width: 1319px;
+     align-items: center;
+     justify-content: space-evenly;
+
+}
+#HTML, #CSS, #JavaScript{
+    display: flex;
+    border: dashed;
+    height: 200px;
+    width: 440px;
+     align-items: center;
+
+}
+footer{
+    height: 900px;
+    width: 1390;
+    background-color: lightcyan;
+}
+@media screen and (max-width: 768px) {
+       nav, 
+    header {
+      flex-direction: column;
+      flex-shrink: inherit;
+      
+    }
+    side-column,main,{
+        flex-wrap: wrap;
+        flex-shrink:inherit;
+        font-size:50%;
+        margin:50%;
+    }
+  }
+  
+/* /* 
+.mypic, p{
+float: right;
+} */
+/* .nav{
+display: flex;
+background-color: cornflowerblue; */
+/* 
+header{
+    display: flex;
+    position:relative;
+} */
+/* nav{
 position: relative;
  display:flex;
  justify-content: flex-end;
- letter-spacing: 0.09em;
-}
- .About{
+ letter-spacing: 0.09em; */
+ /* .About{
      display: flex;
      flex-wrap: nowrap;
      justify-content: left;
@@ -40,14 +120,18 @@ position: relative;
  }
  .About p {
      color:var(--bold);
-     position: relative;
-     
+     position: relative; 
+     float: right;
  }
+ .portfolio{
+     float: left;
+ }
+ /* }
  aside{
     display: flex;
    position: static;
    display: inline-block;
    float: right;
-   background-color: var(--dark);
- */
+   background-color: var(--dark); */
 
+ /* */
